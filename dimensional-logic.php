@@ -163,7 +163,7 @@ function perform_calculations($properties, &$form) {
 				
 			} // end square foot if
 
-			// widt per linear foot calculation
+			// width per linear foot calculation
 			if (strpos($addonText, "**wplf") !== false) { 
 				
 				// get the price string
