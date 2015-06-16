@@ -1,0 +1,1550 @@
+@import url('dealer-style.css');
+/*
+Theme Name: Doolittle Trailers
+Theme URI: http://www.prokellseo.com/
+Description: 
+Author: 
+Author URI: http://www.prokellseo.com/
+*/
+
+@font-face {
+	font-family: 'BadGrundge';
+	src: url('http://www.doolittletrailers.com/fonts/bad_grunge-webfont.eot');
+	src: url('http://www.doolittletrailers.com/fonts/bad_grunge-webfont.eot?#iefix') format('embedded-opentype'),
+	url('http://www.doolittletrailers.com/fonts/bad_grunge-webfont.woff') format('woff'),
+	url('http://www.doolittletrailers.com/fonts/bad_grunge-webfont.ttf') format('truetype'),
+	url('http://www.doolittletrailers.com/fonts/bad_grunge-webfont.svg#FontName') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+	font-size:100%;
+	font:inherit;
+	padding:0;
+	border:0;
+	margin:0;
+	vertical-align:baseline
+	font-weight: 400;
+	font-family: 'Open Sans';
+	color: #fff;
+}
+
+body	{
+	line-height:1;
+	background: #000 url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/gradient-bg-doolittle.jpg) no-repeat center top fixed; 
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #e0700a;
+	cursor: pointer;
+	cursor: hand;
+}
+
+ol,ul{
+	list-style:none
+}
+
+ul.list {
+	margin: 0 0 20px 40px;
+	list-style-type: circle;
+}
+
+blockquote,q{
+	quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after{
+	content:'';
+	content:none
+}
+
+img { 
+	display: block; 
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display:block
+}
+
+
+/* =Structure
+----------------------------------------------- */
+.page {
+	width: 100%;
+	line-height: 2em;
+	font-size: 16px;
+}
+
+
+.container {
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+#content, #content-full  {
+	width: 100%;
+	margin: 20px 0;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.8);
+	padding: 20px 0;
+}
+
+#content-full  {
+	width: 90%;
+	margin: 20px 0;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.8);
+	padding: 20px 5%;
+}
+
+.entry-content {
+	margin: 0 10px;
+	float: right;
+	width: 65%;
+	margin: 0 5% 0 0;
+	background: none;
+	min-height: 500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 30px;
+	line-height: 1.5em;
+	margin: 0 0 10px;
+	color: #e0700a;
+	font-family: 'BadGrundge';
+	letter-spacing: 1px;
+}
+
+.doolittlemakeiteasy {
+	font-family: 'BadGrundge'!important;
+}
+
+h1.entry-title {
+	line-height: 1.25em;
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+p {
+	margin: 0 0 15px;
+	color: #fff;
+}
+
+strong {
+	font-weight: 900;
+}
+
+em {
+	font-style: italic;
+}
+
+selector::pseudo-element {
+	property:value;
+}
+
+p.link {
+	padding-left: 32px;
+	background: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/launch-dot-doolittle.png) no-repeat left center;
+}
+
+p.link a:hover {
+	text-decoration: none;
+}
+
+/* =Header
+----------------------------------------------- */
+.header {
+	z-index: 9999;
+	width: 100%;
+}
+
+.top-nav {
+	background: #fef200;
+	padding: 0;
+	color: #000;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+}
+
+ul.top-cta {
+	float: right;
+	list-style: none; 
+}
+
+ul.top-cta li {
+	float: left;
+	padding: 0 20px 0 28px;
+	font-size: 14px;
+	line-height: 2em;
+	background: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/locate-top-icn-doolitttle.png) no-repeat left center;
+}
+
+ul.top-cta li a {
+	color: #000;
+}
+
+ul.top-cta li.dealer {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/dealer-top-icn-doolitttle.png);
+}
+
+ul.top-cta li.my_account_header {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/dealer-top-icn-doolitttle.png);
+}
+
+ul.top-cta li.login {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/login-top-icn-doolitttle.png);
+}
+
+ul.top-cta li.logout_header {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/login-top-icn-doolitttle.png);
+}
+
+ul.top-cta li.phone {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/phone-top-icn-doolitttle.png);
+}
+
+ul.top-cta li.img {
+	padding: 0 5px;
+	background: none;
+}
+
+ul.top-cta img {
+	height: 28px;
+}
+
+ul.top-cta li:last-child {
+	padding-right: 0;
+}
+
+ul.top-cta li a:hover {
+	text-decoration: none;
+}
+
+.bottom-nav {
+	background: #000;
+	padding: 20px 0;
+	position: relative;
+	z-index: 9999;
+}
+
+img.logo {
+	float: left;
+	width: 35%;
+}
+
+/* =Navigation
+----------------------------------------------- */
+.sidr{
+	display:none;
+}
+
+#simple-menu {
+	float: right;
+	margin-right: 15px;
+	font-size: 80px;
+	display: none;
+}
+
+#simple-menu:hover {
+	text-decoration: none;
+}
+
+#sidr li {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+#sidr-yellow a {
+	color: black !important;
+}
+
+#sidr-yellow {
+	background: yellow;
+	margin-bottom: 5px;
+}
+
+#cssmenu {
+	margin-top: 20px;
+	height: 34px;
+	width: auto;
+	float: right;
+	width: 65%;
+	z-index: 9999;
+}
+
+#menu-button a {
+	font-size: 18px !important;
+}
+
+#cssmenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+
+#cssmenu > ul {
+	position: relative;
+	display: block;
+	float: right;
+	z-index: 9999;
+}
+
+#cssmenu:after,
+#cssmenu > ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+	height: 0;
+}
+
+#cssmenu.align-right > ul > li {
+	float: right;
+}
+
+#cssmenu.align-center ul {
+	text-align: center;
+}
+
+#cssmenu.align-center ul ul {
+	text-align: left;
+}
+
+#cssmenu > ul > li {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#cssmenu > ul > #menu-button {
+	display: none;
+}
+
+#cssmenu ul li a {
+	display: block;
+	text-decoration: none;
+}
+
+#cssmenu > ul > li > a {
+	font-size: 14px;
+	padding: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	-webkit-transition: color 0.35s ease-out;
+	-moz-transition: color 0.35s ease-out;
+	-ms-transition: color 0.35s ease-out;
+	-o-transition: color 0.35s ease-out;
+	transition: color 0.35s ease-out;
+}
+
+#top-menu > a > h1 {
+	-webkit-transition: color 0.35s ease-out;
+	-moz-transition: color 0.35s ease-out;
+	-ms-transition: color 0.35s ease-out;
+	-o-transition: color 0.35s ease-out;
+	transition: color 0.35s ease-out;
+}
+
+#top-menu > a > h1:hover {
+	color: #000;
+}
+
+#cssmenu > ul > li.has-sub > a {
+	padding-right: 32px;
+}
+
+#cssmenu > ul > li:hover > a {
+	color: #fef200;
+}
+
+#cssmenu li.has-sub::after {
+	display: block;
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+#cssmenu > ul > li.has-sub::after {
+	right: 10px;
+	top: 20px;
+	border: 5px solid transparent;
+	border-top-color: #7a8189;
+}
+
+#cssmenu > ul > li:hover::after {
+	border-top-color: #ffffff;
+}
+
+#indicatorContainer {
+	position: absolute;
+	height: 14px;
+	width: 100%;
+	bottom: 0px;
+	overflow: hidden;
+	z-index: -1;
+}
+
+#pIndicator {
+	position: absolute;
+	height: 0;
+	width: 100%;
+	border: 12px solid transparent;
+	z-index: -2;
+	-webkit-transition: left .25s ease;
+	-moz-transition: left .25s ease;
+	-ms-transition: left .25s ease;
+	-o-transition: left .25s ease;
+	transition: left .25s ease;
+}
+
+#cIndicator {
+	position: absolute;
+	height: 0;
+	width: 100%;
+	border: 12px solid transparent;
+	top: -12px;
+	right: 100%;
+	z-index: -2;
+}
+
+#cssmenu ul ul {
+	position: absolute;
+	left: -9999px;
+	top: 70px;
+	opacity: 0;
+	-webkit-transition: opacity .3s ease, top .25s ease;
+	-moz-transition: opacity .3s ease, top .25s ease;
+	-ms-transition: opacity .3s ease, top .25s ease;
+	-o-transition: opacity .3s ease, top .25s ease;
+	transition: opacity .3s ease, top .25s ease;
+	z-index: 1000;
+}
+
+#cssmenu ul ul ul {
+	top: 37px;
+	padding-left: 5px;
+}
+
+#cssmenu ul ul li {
+	position: relative;
+}
+
+#cssmenu > ul > li:hover > ul {
+	left: auto;
+	top: 44px;
+	opacity: 1;
+}
+
+#cssmenu.align-right > ul > li:hover > ul {
+	left: auto;
+	right: 0;
+	opacity: 1;
+}
+
+#cssmenu ul ul li:hover > ul {
+	left: 190px;
+	top: 0;
+	opacity: 1;
+}
+
+#cssmenu.align-right ul ul li:hover > ul {
+	left: auto;
+	right: 170px;
+	top: 0;
+	opacity: 1;
+	padding-right: 5px;
+}
+
+#cssmenu ul ul li a {
+	width: 180px;
+	border-bottom: 1px solid #eeeeee;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #000;
+	background: #ffffff;
+	-webkit-transition: all .35s ease;
+	-moz-transition: all .35s ease;
+	-ms-transition: all .35s ease;
+	-o-transition: all .35s ease;
+	transition: all .35s ease;
+}
+
+#cssmenu.align-right ul ul li a {
+	text-align: right;
+}
+
+#cssmenu ul ul li:hover > a {
+	background: #000;
+	color: #fef200;
+	background: #000;
+}
+
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last > a {
+	border-bottom: 0;
+}
+
+#cssmenu > ul > li > ul::after {
+	content: '';
+	border: 6px solid transparent;
+	width: 0;
+	height: 0;
+	border-bottom-color: #ffffff;
+	position: absolute;
+	top: -12px;
+	left: 30px;
+}
+
+#cssmenu.align-right > ul > li > ul::after {
+	left: auto;
+	right: 30px;
+}
+
+#cssmenu ul ul li.has-sub::after {
+	border: 4px solid transparent;
+	border-left-color: #9ea2a5;
+	right: 10px;
+	top: 12px;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	-webkit-transition: -webkit-transform 0.2s ease, right 0.2s ease;
+}
+
+#cssmenu.align-right ul ul li.has-sub::after {
+	border-left-color: transparent;
+	border-right-color: #9ea2a5;
+	right: auto;
+	left: 10px;
+}
+
+#cssmenu ul ul li.has-sub:hover::after {
+	border-left-color: #ffffff;
+	right: -5px;
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+#cssmenu.align-right ul ul li.has-sub:hover::after {
+	border-right-color: #ffffff;
+	border-left-color: transparent;
+	left: -5px;
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+
+/* =Home Page
+----------------------------------------------- */
+.home {
+	position: relative;
+	z-index: 1;
+}
+
+.home .slider img {
+	opacity: .9;	
+	-webkit-transition: all .5s ease; /* Safari and Chrome */
+	-moz-transition: all .5s ease; /* Firefox */
+	-ms-transition: all .5s ease; /* IE 9 */
+	-o-transition: all .5s ease; /* Opera */
+	transition: all .5s ease;
+}
+
+.home .slider img:hover {
+	opacity: 1;	
+	-webkit-transform:scale(1.03); /* Safari and Chrome */
+	-moz-transform:scale(1.03); /* Firefox */
+	-ms-transform:scale(1.03); /* IE 9 */
+	-o-transform:scale(1.03); /* Opera */
+	transform:scale(1.03);
+}
+
+.hp-trailers {
+	padding: 0 0 60px;
+	border-top: 4px solid #fef200;
+	background: rgba(0,0,0,.6) url(http://www.doolittletrailers.com/wp-content/uploads/2014/10/trailer-hp-top-bg.png) no-repeat center top;
+}
+
+.hp-trailers h2.trailers-hp-top {
+	margin: 0 0 30px;
+	line-height: 60px;
+	color: #000;
+	text-align: center;
+	font-size: 32px;
+}
+
+.hp-trailer-cta {
+	margin: 40px 0 0;
+}
+
+.hp-trailer-cta a {
+	color: #fef200;
+	text-transform: capitalize;
+	font-family: 'BadGrundge';
+	letter-spacing: 2px;
+	font-size: 28px;
+}
+
+.hp-trailer-cta a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hp-trailers img.hp-trailer {
+	width: 100%;
+}
+
+.hp-content {
+	padding: 0 0 60px;
+	border-top: 4px solid #fef200;
+	background: #000 url(http://www.doolittletrailers.com/wp-content/uploads/2014/10/trailer-hp-top-bg.png) no-repeat center top;
+}
+
+.hp-content h2.content-hp-top {
+	margin: 0 0 30px;
+	line-height: 60px;
+	color: #000;
+	text-align: center;
+	font-size: 32px;
+}
+
+.hp-content-txt {
+	margin: 0 0 20px;
+}
+
+.hp-content-txt h2 {
+	margin: 0;
+	color: #fef200;
+	font-size: 40px;
+}
+
+.hp-content-column {
+	float: left;
+	width: 27.33%;
+	margin: 10px 2.5%;
+}
+
+.hp-content-img {
+	margin: 10px 0;
+}
+
+.hp-content-img img {
+	float: left;
+	width: 45%;
+	margin: 10px 2.5%;
+}
+
+.home #content {
+	float: left;
+	width: 45%;
+	margin: 30px 2.5%;
+	background: none;
+}
+
+.home #content.right {
+	float: right;
+}
+
+.home .entry-content {
+	margin: 0 10px;
+	width: 100%;
+	float: none;
+	min-height: 0;
+}
+
+.hp-carousel {
+	padding: 0 0 60px;
+	border-top: 4px solid #fef200;
+	background: rgba(0,0,0,.6) url(http://www.doolittletrailers.com/wp-content/uploads/2014/10/trailer-hp-top-bg.png) no-repeat center top;
+}
+
+.hp-carousel h2.content-hp-top {
+	margin: 0 0 30px;
+	line-height: 60px;
+	color: #000;
+	text-align: center;
+	font-size: 32px;
+}
+
+.hp-carousel h3 {
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+	line-height: 1.25em;
+}
+
+.hp-carousel p {
+	font-weight: 400;
+	test-shadow: 1px 1px 1px #000;	
+	margin: 0 0 40px;
+}
+
+ul.es-slides li, .es-slide-inner, .es-overlay {
+	border-color: none;
+}
+
+.es-title, .es-title a {
+	font-size: 40px;
+	line-height: 1.1em
+}
+
+.es-groups, .es-groups a {
+	font-size: 20px;
+}
+
+/* =Sub Page
+----------------------------------------------- */
+img.content-header {
+	width: 100%;
+	height: auto;
+	margin: 0 0 30px;
+}
+
+#content-full .entry-content {
+	float: none;
+	width: 100%;
+	background: none;
+	min-height: 500px;
+}
+
+ul.list {
+	color: #fff;
+	margin: 0 0 20px 40px;
+	list-style-type: circle;
+}
+
+.list ul li {
+	margin-left: 30px;
+	list-style-type: circle;
+}
+
+.list ul ul li {
+	margin-left: 60px;
+	list-style-type: circle;
+}
+
+.secondary-options {
+	margin-left: 30px;
+}
+
+#secondary-list {
+	margin-left: 80px;
+}
+
+.people {
+	clear: both;
+	margin: 20px 0;
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+
+.people img {
+	max-width: 220px;
+	float: left;
+	margin: 10px 40px 40px 0;
+}
+
+.people h4 {
+	font-size: 26px;
+	margin: 0;
+}
+
+.people p.title {
+	margin: 0 0 20px;
+	font-weight: 900;
+	margin: 0 0 10px;
+}
+
+.people p.bio {
+	margin: 0 0 10px;
+}
+
+.trailers {
+	margin: 10px 0 30px;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+}
+
+.trailers h4 {
+	margin: 0;
+	line-height: 1.25em;
+}
+
+.trailers h4 a {
+	color: #fff;
+	font-size: 50px;
+}
+
+.trailers h4 a:hover {
+	color: #e0700a;
+}
+
+.trailers img {
+	margin: 0 0 10px;
+	width: 100%;
+}
+
+.trailers img.logo {
+	float: none;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.trailers p {
+	margin: 0 0 20px;
+}
+
+.trailers a {
+	color: #fef200;
+	text-transform: capitalize;
+	font-family: 'BadGrundge';
+	letter-spacing: 2px;
+	font-size: 28px;
+}
+
+.trailers a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.trailer-bio {
+	margin: 20px 0 40px;
+}
+
+.trailer-bio-img {
+	float: left;
+	width: 35%;
+}
+
+.trailer-bio-img img {
+	width: 100%;
+}
+
+.trailer-bio-txt {
+	float: right;
+	width: 60%;
+}
+
+.header-columns {
+	margin: 20px 0;
+	width: 100%;
+}
+
+.header-columns .column-left, .header-columns .column-right {
+	width: 47.5%;
+	margin: 10px 2.5%;
+	float: left;
+}
+
+.header-columns .column-left{
+	margin-left: 0;
+	float: left;
+}
+
+.header-columns .column-right{
+	margin-right: 0;
+	float: right;
+}
+
+img.left {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+img.map {
+	width: 100%;
+	margin: 60px 0 20px;
+}
+
+/* =Toggle Expander
+----------------------------------------------- */
+#toggle { 
+	margin: 0 20px 40px 0;
+}
+
+#toggle h3 { 
+	padding-left: 26px;
+	background: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/w-plus-toggle-doolittle.png) no-repeat left center;
+	color: #fff;
+	font-size: 30px;
+	border-bottom: 1px solid #fff;
+}
+
+#toggle h3:hover { 
+	cursor:pointer; 
+	color: #fef200;
+	background: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/y-plus-toggle-doolittle.png) no-repeat left center;
+}
+
+#toggle h3.active { 
+	color:#fff; 
+	background: url(http://www.doolittletrailers.com/wp-content/uploads/2014/11/w-minus-toggle-doolittle.png) no-repeat left center;
+	border: none;
+}
+
+#toggle div { 
+	height:0; 
+	overflow:hidden;
+	position:relative; 
+	border-bottom: 1px solid #fff;
+}
+
+#toggle div p { 
+	padding:0; 
+	margin-bottom:15px; 
+}
+
+/* =Dealer Locator
+----------------------------------------------- */
+#wpsl-wrap strong {
+  color: #FEF200;
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+#wpsl-wrap .wpsl-directions, #wpsl-wrap #wpsl-result-list a {
+	color: #E0700A;
+	transition: color 250ms ease;
+}
+#wpsl-wrap .wpsl-directions:hover, #wpsl-wrap #wpsl-result-list a:hover {
+	color: #fff!important;
+}
+
+#wpsl-wrap #wpsl-result-list li p {
+	margin-bottom: 0;
+}
+
+#wpsl-wrap #wpsl-result-list li {
+	margin-bottom: 1em;
+}
+
+/* =Trailer Brands
+----------------------------------------------- */
+.trailer-brand {
+	width: 100%;
+	margin: 10px 0;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+
+.trailer-brand-img {
+	float: left;
+	width: 45%;
+	margin: 10px 0;
+}
+
+.trailer-brand-img img {
+	width: 100%;
+}
+
+.trailer-brand-txt {
+	float: right;
+	width: 50%;
+	margin: 10px 0;
+	line-height: 1.5em;
+}
+
+.trailer-brand-txt img {
+	max-width: 200px;
+	margin: 0 0 15px;
+}
+
+/* =Sidebar
+----------------------------------------------- */
+.sidebar {
+	float: left;
+	margin: 20px 0 0 4%;
+	width: 20%;
+}
+
+h3.widget-title {
+	margin: 0 0 10px;
+	line-height: 1.25em;
+	color: #fef200;
+	font-size: 34px;
+}
+
+.sidebar ul.list {
+	margin: 0 0 30px 10px;
+	list-style-type: none;
+}
+
+.sidebar ul.sid li.widget-container {
+	margin: 0 0 40px;
+}
+
+.sidebar li.gfield .medium {
+	width: 100%;
+}
+
+li.current_page_item > a {
+	color: #fef200!important;
+}
+
+.sidebar a img.trailer-side {
+	width: 100%;
+	margin: 0 0 10px;
+	opacity: .9;
+}
+
+/* =Form
+----------------------------------------------- */
+.gform_button {
+	background: #fef200;
+	padding: 5px 10px;
+}
+
+.gform_button:hover {
+	cursor: pointer;
+}
+
+.ginput_container, .ginput_container .medium {
+	width: 100% !important;
+}
+
+/* =Footer
+----------------------------------------------- */
+.footer {
+	clear: both;
+	width: 100%;
+	margin: 0;
+}
+
+.footer #top {
+	background: #cacaca;
+	min-height: 100px;
+}
+
+.footer #top .bucket {
+	width: 40%;
+	margin: 20px 0;
+	float: left;
+}
+
+.footer #top .bucket.right {
+	float: right;
+}
+
+.footer #top h4, .footer #top h4 a {
+	font-size: 40px;
+	color: #000;
+	text-align: center;
+}
+
+.footer #top h4 a:hover {
+	text-decoration: none;
+	color: #e0700a;
+}
+
+.footer #bottom {
+	background: #000;
+	padding: 10px 0;
+}
+
+.trailers-footer {
+	margin: 0 auto;
+	max-width: 1800px;
+}
+
+.trailers-footer h2 {
+	color: #fef200;
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+}
+
+.trailer-footer {
+	float: left;
+	width: 19.8%;
+	margin: 0 .1%;
+}
+
+.trailer-footer img {
+	width: 100%
+}
+
+.footer #bottom .buckets {
+	margin: 40px 0 20px;
+}
+
+.footer #bottom .bucket{
+	width: 20%;
+	margin: 20px 2.5%;
+	float: left;
+}
+
+.footer #bottom .bucket.right {
+	width: 70%;
+}
+
+.footer #bottom .bucket h4 {
+	color: #fef200;
+	font-size: 40px;
+	margin: 0;
+}
+
+.footer #bottom ul.list {
+	list-style-type: none;
+	margin: 0;
+}
+
+.footer #bottom ul.connect {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+}
+
+.footer #bottom ul.connect li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.footer #copyright {
+	background: #000;
+	padding: 20px 0;
+}
+
+.footer #copyright .bottom-img{
+	margin: 0 auto;
+	width: 80%;
+}
+.footer #copyright img {
+	width: 100%;
+}
+
+/* My Account
+---------------------------------*/
+.my-account-item a {
+	color: #e0700a;
+	font-family: 'BadGrundge';
+	text-decoration: none;
+}
+
+.my-account-item a:hover {
+	color: white;
+}
+
+.my-account-landing {
+	width: 100%;
+}
+
+.my-account-item {
+	float: left;
+	width: 45%;
+	margin: 20px 2.5%;
+	min-height: 200px;
+}
+
+.my-account-item h2 {
+	font-size: 44px;
+	padding: 10px 0 0 55px;
+	margin: 0 0 5px;
+	background: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/quote-icn-doolittle.png) no-repeat left center;
+}
+
+.my-account-item h2.documents {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/documents-icn-doolittle.png);
+}
+
+.my-account-item h2.orders {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/orders-icn-doolittle.png);
+}
+
+.my-account-item h2.edit {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/edit-icn-doolittle.png);
+}
+
+.my-account-item h2.marketing {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/marketing-icn-doolittle.png);
+}
+.my-account-item h2.locator {
+	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2015/04/pin-drop.png);
+}
+
+.my-account-item p.launch {
+	font-size: 16px;
+	padding-left: 32px;
+	background: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/launch-dot-doolittle.png) no-repeat left center;
+}
+
+.my-account-item p.launch a:hover {
+	text-decoration: none;
+}
+
+.docs h4 {
+	clear: both;
+}
+
+
+.media-item {
+  display: block;
+  float: left;
+  width: 245px;
+  padding: .5em;
+  box-sizing: border-box;
+}
+
+/* Responsive
+---------------------------------*/
+@media (max-width: 1100px) {
+	.slider {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 900px) {
+	.footer #bottom .bucket h4 {
+		font-size: 24px !important;
+	}
+}
+
+@media (max-width: 855px) {
+	#simple-menu {
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	.top-nav {
+		display: none;
+	}
+
+	img.logo {
+		float: left;
+		width: 300px;
+		margin: 0;
+	}
+
+	.home #content {
+		float: left;
+		width: 90%;
+		margin: 20px auto;
+		background: none;
+	}
+
+	.home #content.right {
+		float: none;
+	}
+
+	.hp-content-column, .hp-content-img img {
+		width: 90%;
+		margin: 10px auto;
+		float: none;
+	}
+
+	.entry-content {
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.header-columns .column-left, .header-columns .column-right {
+		width: 100%;
+		float: none;
+		margin: 10px 0;
+	}
+
+	.sidebar {
+		float: none;
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.sidebar li#text-4, .sidebar li#text-3 .sidebar li#dc_jqaccordion_widget-2{
+		display: none
+	}
+
+	.trailers-footer {
+		display: none;
+	}
+
+	.footer #top {
+		display: none
+	}
+
+	.footer #bottom .bucket{
+		width: 80%;
+		margin: 10px auto;
+		float: none;
+	}
+
+	.my-account-item {
+		float: none;
+		width: 90%;
+		margin: 20px 5%;
+	}
+}
+
+@media (max-width: 480px) {
+	.trailer-brand {
+		margin-bottom: 30px;
+	}
+
+	.trailer-brand-img {
+		float: none;
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.trailer-brand-txt {
+		float: none;
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.people img {
+		max-width: 220px;
+		float: none;
+		margin: 10px 0;
+	}
+
+	.slider {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.tablepress {
+		font-size: 12px !important;
+		width: 100% !important;
+		line-height: 1.5em !important;
+	}
+}
+
+@media (max-width: 320px) {
+	img.logo {
+		padding-top: 10px;
+		width: 240px;
+	}
+}
+
+/* =Menu Media Queries
+----------------------------------------------- */
+@media all and (max-width: 855px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 855px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 780px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 780px), only screen and (min-device-pixel-ratio: 2) and (max-width: 780px), only screen and (min-resolution: 192dpi) and (max-width: 780px), only screen and (min-resolution: 2dppx) and (max-width: 780px) {
+	#cssmenu {
+		width: auto;
+	}
+	
+	.open {
+		width: 100%;
+		height: 450px;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	#cssmenu.align-center ul {
+		text-align: left;
+	}
+
+	#cssmenu.align-right > ul > li {
+		float: none;
+	}
+
+	#cssmenu ul {
+		width: auto;
+	}
+
+	#cssmenu .submenuArrow, #cssmenu #indicatorContainer {
+		display: none;
+	}
+
+	#cssmenu > ul {
+		display: block;
+	}
+
+	#cssmenu > ul > li {
+		float: none;
+	}
+
+	#cssmenu li, #cssmenu > ul > li {
+		display: none;
+	}
+  
+	#cssmenu ul ul,
+	#cssmenu ul ul ul,
+	#cssmenu ul > li:hover > ul,
+	#cssmenu ul ul > li:hover > ul,
+	#cssmenu.align-right ul ul,
+	#cssmenu.align-right ul ul ul,
+	#cssmenu.align-right ul > li:hover > ul,
+	#cssmenu.align-right ul ul > li:hover > ul {
+		position: relative;
+		left: auto;
+		top: auto;
+		opacity: 1;
+		padding-left: 0;
+		padding-right: 0;
+		right: auto;
+	}
+
+	#cssmenu ul .has-sub::after {
+		display: none;
+	}
+
+	#cssmenu ul li a {
+		padding: 12px 20px;
+	}
+
+	#cssmenu ul ul li a {
+		border: 0;
+		background: none;
+		width: auto;
+		padding: 8px 35px;
+	}
+
+	#cssmenu.align-right ul ul li a {
+		text-align: left;
+	}
+
+	#cssmenu ul ul li:hover > a {
+		background: none;
+		color: #8c9195;
+	}
+  
+	#menu-button a {
+		text-align: right;
+	}
+  
+	#cssmenu ul ul ul a {
+		padding: 8px 50px;
+	}
+
+	#cssmenu ul ul ul ul a {
+		padding: 8px 65px;
+	}
+
+	#cssmenu ul ul ul ul ul a {
+		padding: 8px 80px;
+	}
+
+	#cssmenu ul ul ul ul ul ul a {
+		padding: 8px 95px;
+	}
+
+	#cssmenu > ul > #menu-button {
+		display: block;
+		cursor: pointer;
+	}
+
+	#cssmenu #menu-button > a {
+		padding: 14px 20px;
+	}
+
+	#cssmenu ul.open li,
+	#cssmenu > ul.open > li {
+		display: block;
+	}
+
+	#cssmenu > ul.open > li#menu-button > a {
+		border-bottom: 1px solid rgba(150, 150, 150, 0.1);
+	}
+	
+	#cssmenu ul ul::after {
+		display: none;
+	}
+
+	#cssmenu #menu-button::after {
+		display: block;
+		content: '';
+		position: absolute;
+		height: 3px;
+		width: 22px;
+		right: 20px;
+		top: 15px;
+	}
+  
+	#cssmenu li {
+		background: white;
+	}
+  
+	#cssmenu #menu-button::before {
+		display: block;
+		content: '';
+		position: absolute;
+		height: 3px;
+		width: 22px;
+		right: 20px;
+		top: 25px;
+	}
+  
+	#cssmenu ul.open #menu-button::after,
+	#cssmenu ul.open #menu-button::before {
+		border-color: #fff;
+	}
+}
+
+@media screen and (max-width: 955px) {
+	#cssmenu > ul > li > a{
+		font-size: 12px;
+	}
+}
+
+
+.entry-content .wpsl-search {
+	background: none;
+}
+.entry-content #wpsl-search-wrap .wpsl-input label, .entry-content #wpsl-search-wrap div label {
+	width: auto;
+}
+
+.entry-content .wpsl-info-window p, .entry-content .wpsl-info-window span, .entry-content .wpsl-info-window strong {
+	color: #000;
+}
+
+.entry-content #wpsl-search-wrap input,.entry-content #wpsl-search-btn {
+	border-radius: 0;
+}
+
+.entry-content  #wpsl-search-btn {
+	background: #fef200;
+	padding: 5px 10px;
+	color: #000;
+	font-size: 1em;
+} 
+
+.entry-content #wpsl-result-list {
+	box-sizing: border-box;
+	padding-right: 1em;
+}
+
+
+
+
+
+
+
+

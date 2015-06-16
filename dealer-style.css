@@ -1,0 +1,623 @@
+/*
+Theme Name: Doolittle Trailers
+Theme URI: http://www.prokellseo.com/
+Description: Sub-Stylesheet for dealer and woocommerce pages
+Author: Josh O'Steen
+Author URI: http://www.prokellseo.com/
+*/
+
+.sidr{
+	display:none;
+}
+
+/* Dealer Menu
+---------------------------------*/
+.dealer-menu {
+	background: #333;
+	color: #fff;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	height: 70px;
+	width: 100%;
+}
+
+a.dealer-main {
+	position: relative;
+	z-index: 3;
+	text-decoration: none;
+	color: #fff;
+	font-size: 5em;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	padding-top: 9px;
+	right: 0.1em;
+}
+
+a.dealer-main:hover {
+	text-decoration: none;
+}
+
+.dealer-drawer nav ul {
+	list-style: none;
+	width: 100%;
+	background: grey;
+}
+
+.dealer-drawer ul li a {
+	display: block;
+	height: auto;
+	text-decoration: none;
+	background: rgba(51, 51, 51, 1.0);
+	color: white;
+	padding: 1em;
+	margin-top: 1px;
+}
+
+.dealer-drawer a:hover {
+	color: #e0700a;
+}
+
+.dealer-drawer {
+	display: block;
+	height: auto;
+	margin-top: -9px !important;
+}
+
+
+/* Dealer Structure Overrides
+---------------------------------*/
+.page-template-dealer-php #content-full {
+	padding: 1% 0 5% 0 !important;
+	margin: 20px auto !important;
+	width: 100% !important;
+}
+
+.page-template-dealer-php .entry-content {
+	margin: 10px 5% !important;
+	width: 90% !important;
+}
+
+.page-template-dealer-php #toggle {
+	margin: 0 auto;
+}
+
+.page-template-dealer-php #toggle div {
+	overflow: hidden;
+	position: relative !important;
+	border-top: 1px solid grey !important;
+	border-bottom: none !important;
+}
+
+.page .header .bottom-nav .push-right .jetmenu {
+	padding-top: 17px;
+}
+
+
+/* =Quote Builder Tables
+----------------------------------------------- */
+.parent-pageid-554 .entry-content h4 {
+	font-size: 20px;
+	margin: 30px 0 0 5px;
+	text-align: center;
+}
+
+.parent-pageid-554 .entry-content table, th, td {
+	border: 1px solid white !important;
+	text-align: center;
+}
+
+.parent-pageid-554 .entry-content th {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.parent-pageid-554 .entry-content table {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.parent-pageid-554 .entry-content td a {
+	display: block;
+	width: 100%;
+}
+
+.parent-pageid-554 .entry-content td a:hover {
+	background: rgba(254, 242, 0, 1.0);
+	color: black;
+	text-decoration: none;
+}
+
+.parent-pageid-554 .entry-content .trailer-size {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+#post-554 .entry-content img {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+}
+
+#post-554 .entry-content h4 {
+	text-align: center;
+}
+
+.page-template-dealer-php .header-columns img{
+	width: 100% !important;
+}
+
+.page-template-dealer-php .header-columns h4 {
+	margin-top: 10px !important
+	
+}
+
+.page-template-dealer-php .header-columns {
+	margin: 10px 0 !important;
+}
+
+.page-template-dealer-php .header-columns .column-left .column-right {
+	margin: 0 2.5% !important;
+}
+
+.page-template-dealer-php .header-columns .column-left .column-right a {
+	display: block;
+}
+
+
+
+/* = My Account
+----------------------------------------------- */
+.woocommerce .login label {
+	text-align: center;
+}
+
+.page .woocommerce form.login {
+	border: 0;
+}
+
+.page .woocommerce form.login input, .page .woocommerce form.login button{
+	border-radius: 0;
+	width: 40%!important;
+	min-width: 290px;
+}
+.page .woocommerce form.login .inline {
+	margin-top: 1em;
+}
+.page .woocommerce form.login .inline input {
+	width: auto!important;
+}
+
+.login-header-text {
+	text-align: center;
+}
+
+.woocommerce .login .input-text {
+	width: 60% !important;
+	height: 24px;
+	margin: 0px auto !important;
+	display: block !important;
+	font-size: 16px;
+	text-indent: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.woocommerce .login .button {
+	margin:3% 30% 0px 30% !important;
+	display: block;
+	width: 40%;
+	background: rgba(223, 112, 10, 1.0);
+	color: #e5e5e5;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-color: #000000;
+	border-radius: 3px;
+}
+
+.woocommerce .login .button:hover {
+	background: rgba(223, 112, 10, 1.0);
+}
+
+.woocommerce .login .inline {
+	display: block !important;
+}
+
+.woocommerce .login .lost_password {
+	margin: 0 0 3% 0;
+}
+
+.woocommerce .login .lost_password a {
+	float: right;
+	margin-top: -10px;
+}
+
+.woocommerce-account .myaccount_user a {
+	color: #e0700a;
+}
+
+.woocommerce-account .entry-content .my-account-bucket-container {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.woocommerce-account .my-account-bucket-container .left-bucket {
+	width: 49%;
+	min-height: 200px;
+	float: left;
+	margin: 1em 0 0 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.woocommerce-account .my-account-bucket-container .right-bucket {
+	width: 49%;
+	min-height: 200px;
+	float: right;
+	margin: 1em 0 0 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.woocommerce-account .entry-content .my_account_orders td{
+	text-align: center !important;
+}
+
+.woocommerce-account .entry-content .my_account_orders td.order-actions .button, .view{
+	width: 50%;
+	background: #e0700a;
+	color: white;
+	border: none;
+	letter-spacing: 1.3px;
+	text-shadow: 0px 0px 0px black !important;
+}
+
+.woocommerce-account .entry-content .my_account_orders td.order-actions a:hover{
+	background: #ffa135;
+	color: grey;
+}
+
+.woocommerce-account .entry-content .recent-orders {
+	margin-top: 2em;
+}
+
+.woocommerce-account .dealer-order-info span {
+	color: #e0700a;
+}
+
+.page-template-recent-orders .woocommerce .recent-orders h2 {
+	display: none;
+}
+
+.page-template-recent-orders .woocommerce .recent-orders .order-status, .order-actions {
+	text-align: center !important;
+}
+
+.page-template-recent-orders .woocommerce .recent-orders .button, .view{
+	width: 50%;
+	background: #e0700a;
+	color: white;
+	border: none;
+	letter-spacing: 1.3px;
+	text-shadow: 0px 0px 0px black !important;
+}
+
+.page-template-recent-orders .woocommerce .recent-orders td.order-actions a:hover {
+	background: #ffa135;
+	color: grey;
+}
+
+.page-template-recent-orders .container .entry-content .entry-title {
+	text-align: center;
+}
+
+
+
+
+
+/* = Dealer Template pages
+----------------------------------------------- */
+.page-template-dealer-php .entry-content {
+	width: 90% !important;
+	margin: 10px 5%;
+}
+
+.page-template-dealer-php .entry-content .entry-title {
+	font-size: 70px !important;
+	line-height: 1em;
+	text-align: center;
+	color: #fff;
+}
+
+.page-template-dealer-php .entry-content h4 {
+	font-size: 40px !important;
+	line-height: 1em;
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: 1.5px;
+	font-weight: lighter;
+}
+
+.page-template-dealer-php #post-698 .entry-content h4 {
+	line-height: 0.8em;
+	letter-spacing: 2px;
+}
+
+
+/* = WooCommerce Product Pages
+----------------------------------------------- */
+.woocommerce-page #container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.woocommerce-page .product .quote-total {
+	visibility: hidden !important;
+}
+
+.woocommerce-page #content .product .product_title {
+	font-size: 70px;
+	text-align: center;
+}
+
+.single-product .gsection h2.gsection_title {
+	font-size: 55px;
+	font-weight: normal;
+	line-height: 1em;
+}
+
+.single-product .gform_body .gfield_label {
+	font-family: 'BadGrundge'; 
+	font-size: 40px;
+	font-weight: lighter !important;
+	letter-spacing: 1.5px;
+	line-height: 1em !important;
+}
+
+.single-product .product {
+	margin: 0 5%;
+}
+
+.single-product .images {
+	display: none;
+	float: none !important;
+	width: 100% !important;
+}
+
+.single-product .entry-summary {
+	float: none !important;
+	width: 100% !important;
+	margin: 0 auto !important;
+}
+
+
+.single-product .gform_body li {
+	margin-bottom: 2em;
+}
+
+	/* Hide sections of the forms to force
+		returning to the tables to select model*/
+.single-product .gform_body .dump-series, .quote-total {
+	/*
+visibility: hidden !important;
+	height: 0 !important;
+*/
+	display: none !important;
+}
+
+.single-product .gform_body li#field_4_2, li#field_4_3, li#field_4_4, li#field_12_5, li#field_12_1, li#field_13_5, li#field_13_6, li#field_13_7, li#field_13_8, li#field_13_9, li#field_13_10, li#field_9_1, li#field_9_2, li#field_10_1, li#field_10_2, li#field_11_1, li#field_11_2, li#field_22_1, li#field_22_2, li#field_14_1, li#field_14_2, li#field_14_3, li#field_14_4, li#field_14_5, li#field_15_1, li#field_15_2, li#field_15_3, li#field_15_4, li#field_15_5, li#field_15_16, li#field_16_1, li#field_16_2, li#field_16_3, li#field_16_4, li#field_16_5, li#field_16_16, li#field_17_1, li#field_17_2, li#field_17_3, li#field_17_4, li#field_17_5, li#field_17_6, li#field_17_7, li#field_20_1, li#field_20_2, li#field_20_3, li#field_20_4, li#field_20_5, li#field_20_6, li#field_20_7, li#field_21_1, li#field_21_2, li#field_21_3, li#field_21_4, li#field_21_5, li#field_21_6, li#field_21_7, .hidden {
+	visibility: hidden !important;
+	height: 0 !important;
+	margin: 0 0;
+	/* display: none !important; */
+}
+
+#gform_wrapper_13, #gform_wrapper_14, #gform_wrapper_17, #gform_wrapper_20, #gform_wrapper_21 {
+	margin-top: -23%;
+}
+
+#gform_wrapper_12, #gform_wrapper_9, #gform_wrapper_10, #gform_wrapper_11, #gform_wrapper_22, #gform_wrapper_15, #gform_wrapper_16 {
+	margin-top: -13%;
+}
+
+.single-product .gform_body select {
+	width: 50% !important;
+	min-width: 300px;
+}
+
+.single-product .gform_body span {
+	float: right !important;
+	margin-right: 1em;
+}
+
+.single-product .gform_body label {
+	width: 97% !important;
+}
+
+.single-product .gform_body .ginput_container label {
+	border-bottom: 1px dotted #CCC !important;
+}
+
+.single-product .gform_fields .gfield .gfield_label {
+	color: #e0700a !important;
+	text-align: center !important;
+	width: 100% !important;
+}
+
+.single-product .gform_wrapper {
+	max-width: 100% !important;
+}
+
+.single-product .gform_body .ginput_container {
+	width: 99% !important;
+}
+
+/*
+ * Formally the drop down boxes. Converted to check boxes for uniformity
+ */
+#field_4_13 .ginput_container, #field_4_18 .ginput_container, #field_12_2 .ginput_container, #field_12_3 .ginput_container, #field_13_14 .ginput_container, #field_9_6 .ginput_container, #field_10_6 .ginput_container, #field_14_11 .ginput_container, #field_14_12 .ginput_container, #field_14_14 .ginput_container, #field_14_15 .ginput_container, #field_15_11 .ginput_container, #field_15_12 .ginput_container, #field_15_14 .ginput_container, #field_15_15 .ginput_container, #field_16_11 .ginput_container, #field_16_12 .ginput_container, #field_16_14 .ginput_container, #field_16_15 .ginput_container {
+	/* text-align: center !important; */
+	margin: 0 auto !important;
+}
+
+.single-product .product_totals .gfield .ginput_container {
+	text-align: center !important;
+	margin: 0 auto !important;
+}
+
+.single-product .gform_body .gfield .gfield_description {
+	text-align: center !important;
+}
+
+.single-product .gsection h2 {
+	width: 100% !important;
+	text-align: center !important;
+}
+
+.single-product .gform_body .gfield .ginput_container {
+	margin: 0 auto !important;
+}
+
+.single-product .cart .quantity {
+	
+}
+
+.single-product .product_meta {
+	visibility: hidden;
+}
+
+.single-product .entry-summary p {
+	text-align: center;
+}
+
+.woocommerce-page .woocommerce .woocommerce-message {
+	border-top: 3px solid #e0700a !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+	-webkit-border-bottom-left-radius: 0px !important;
+	-webkit-border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.woocommerce-page .woocommerce .woocommerce-message::before {
+	background-color: #e0700a !important;
+	-webkit-border-bottom-left-radius: 0px !important;
+	-webkit-border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.woocommerce-page .woocommerce .woocommerce-message strong {
+	color: #e0700a;
+}
+
+.woocommerce-page .woocommerce .update-button, .checkout-button {
+	width: 20%;
+	min-width: 170px;
+}
+
+.woocommerce-page .woocommerce .product-remove .remove {
+	margin: 0 auto;
+}
+
+.woocommerce-page .product .totals-container {
+	height: 30px;
+	margin: 0 auto;
+	float: none;
+	width: 20%;
+	min-width: 200px;
+}
+
+
+/*	Dealer Docs
+------------------------------------------*/
+div.document-icon-wrapper {
+	margin: 0 auto 60px auto;
+}
+
+div.document-icon-wrapper div.document-icon img {
+	max-width: 200px !important;
+	max-height: 200px !important;
+	margin: 0 auto -15px auto;
+	
+}
+
+div.document-icon-wrapper div.document-icon a {
+	font-size: 16px;
+}
+
+div.docs h4 {
+	text-align: left !important;
+}
+
+
+
+/*	Parent Stylesheet Overrides
+------------------------------------------*/
+.home .hp-content-txt .hp-content-column a:hover {
+	text-decoration: none !important;
+}
+
+.home .hp-content-txt .hp-content-column h2:hover {
+	color: #fff !important;
+}
+
+.quote-builder-page a:hover {
+	text-decoration: none !important;
+}
+
+.quote-builder-page a:hover h4 {
+	color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
