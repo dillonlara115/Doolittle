@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	 	return;
 	 }
 ?>
-
+<a href="#0" class="cd-top">Top</a>
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php
@@ -36,7 +36,8 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 		 */
 		do_action( 'woocommerce_before_single_product_summary' );
 	?>
-
+	
+	<?php get_template_part('templates/trailerinfo'); ?>
 	<div class="summary entry-summary">
 
 		<?php

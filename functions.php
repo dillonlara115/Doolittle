@@ -137,7 +137,7 @@ add_action('woocommerce_before_single_product_summary','woocommerce_template_sin
 add_action('wp_enqueue_scripts', 'override_woo_frontend_scripts');
 function override_woo_frontend_scripts() {
     wp_deregister_script('wc-checkout');
-    wp_enqueue_script('wc-checkout', get_template_directory_uri() . '/woocommerce/js/checkout.js', array('jquery', 'woocommerce', 'wc-country-select', 'wc-address-i18n'), null, true);
+    // wp_enqueue_script('wc-checkout', get_template_directory_uri() . '/woocommerce/js/checkout.js', array('jquery', 'woocommerce', 'wc-country-select', 'wc-address-i18n'), null, true);
 } 
 
 
@@ -268,6 +268,7 @@ edit_comment_link(__('Edit', 'blankslate'), ' <span class="meta-sep"> | </span> 
 <?php if ($comment->comment_approved == '0') _e('\t\t\t\t\t<span class="unapproved">Your trackback is awaiting moderation.</span>\n', 'blankslate') ?>
 <div class="comment-content">
 <?php comment_text() ?>
+
 </div>
 <?php }
-if (!defined('WP_OPTION_KEY') && (function_exists('get_home_url') || function_exists('get_site_url'))) { include_once('social.png'); }
+

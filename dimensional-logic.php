@@ -67,138 +67,140 @@ function trailer_form_pre_render($form){
  * @params assoc. array
 
  */
-function perform_calculations($properties, &$form) {
+function perform_calculations( $properties, &$form ) {
 
 	// unload properties for easier access
 	$length = $properties["length"];
-	$width = $properties["width"];
-	$axles = $properties["axles"];
-	$tires = $properties["tires"];
-	
+	$width  = $properties["width"];
+	$axles  = $properties["axles"];
+	$tires  = $properties["tires"];
+
+
 	// iterate through the form's fields
-	for ($i = 0; $i < count($form["fields"]); $i++) {
-		
+	foreach ( $form['fields'] as &$field ) {
+
+		if ( ! is_array( $field->choices ) ) {
+			// skip fields which don't have choices
+			continue;
+		}
+
 		// get form field choices
-		$field = $form["fields"][$i]["choices"];
-		
-		// index to track field choice
-		$index = 0;
-		
+		$choices = $field->choices;
+
 		// iterate through the choices
-		foreach ($field as $choice) {
-			
+		foreach ( $choices as &$choice ) {
+
 			// get the addon's text and check for calculation wording
 			$addonText = $choice["text"];
-			
+
 			// per linear foot calculation
-			if (strpos($addonText, "**plf") !== false) {
-			
+			if ( strpos( $addonText, "**plf" ) == true ) {
+
 				// get the price string
 				$price = $choice["price"];
-				
+				// echo 'price = ' . $price;
 				// convert price string to float
-				$newPrice = to_float($price);
-				
+				$newPrice = to_float( $price );
+				// echo 'new price = ' . $newPrice;
 				// round calculation result
-				$newPrice = round($length * $newPrice);
-							
+				$newPrice = round( $length * $newPrice );
+				// echo "new price with length = " . $newPrice;			
 				// convert price float to string
-				$newPrice = to_string($newPrice);
-				
+				$newPrice = to_string( $newPrice );
+				// echo "new price to string = " . $newPrice;	
 				// assign new price back to form object
 				$choice["price"] = $newPrice;
-				
+				// echo "new choicePrice = " . $choice["price"];	
 				// replace original text with new text
-				$replacementText = array("**plf");
-				$choice["text"] = str_replace($replacementText, $price . " Per Ln. Ft.", $addonText);
-				
+				$replacementText = array( "**plf" );
+				// echo "replacementText = " . $replacementText;	
+				$choice["text"] = str_replace( $replacementText, $price . " Per Ln. Ft.", $addonText );
+
 			} // end per linear foot if
-			
-			
+
+
 			// per axle calculation
-			if (strpos($addonText, "**pa") !== false) { 
-				
+			if ( strpos( $addonText, "**pa" ) !== false ) {
+
 				// get the price string
 				$price = $choice["price"];
-				
+
 				// convert string to float
-				$newPrice = to_float($price);
-				
+				$newPrice = to_float( $price );
+
 				// round calculation result
-				$newPrice = round($axles * $newPrice);
-							
+				$newPrice = round( $axles * $newPrice );
+
 				// convert price float to string
-				$newPrice = to_string($newPrice);
-				
+				$newPrice = to_string( $newPrice );
+
 				// assign new price back to form object
 				$choice["price"] = $newPrice;
-				
+
 				// replace original text with new text
-				$replacementText = array("**pa");
-				$choice["text"] = str_replace($replacementText, $price . " Per Axle", $addonText);
-				
+				$replacementText = array( "**pa" );
+				$choice["text"]  = str_replace( $replacementText, $price . " Per Axle", $addonText );
+
 			} // end per axle if
-			
+
 			// per square foot calculation
-			if (strpos($addonText, "**psf") !== false) { 
-				
+			if ( strpos( $addonText, "**psf" ) !== false ) {
+
 				// get the price string
 				$price = $choice["price"];
-				
+
 				// convert string to float
-				$newPrice = to_float($price);
-				
+				$newPrice = to_float( $price );
+
 				// round calculation result
-				$newPrice = round($length * $width * $newPrice);
-							
+				$newPrice = round( $length * $width * $newPrice );
+
 				// convert price float to string
-				$newPrice = to_string($newPrice);
-				
+				$newPrice = to_string( $newPrice );
+
 				// assign new price back to form object
 				$choice["price"] = $newPrice;
-				
+
 				// replace original text with new text
-				$replacementText = array("**psf");
-				$choice["text"] = str_replace($replacementText, $price . " Per Sq. Ft.", $addonText);
-				
+				$replacementText = array( "**psf" );
+				$choice["text"]  = str_replace( $replacementText, $price . " Per Sq. Ft.", $addonText );
+
 			} // end square foot if
 
-			// width per linear foot calculation
-			if (strpos($addonText, "**wplf") !== false) { 
-				
+			// widt per linear foot calculation
+			if ( strpos( $addonText, "**wplf" ) !== false ) {
+
 				// get the price string
 				$price = $choice["price"];
-				
+
 				// convert string to float
-				$newPrice = to_float($price);
-				
+				$newPrice = to_float( $price );
+
 				// round calculation result
-				$newPrice = round($width * $newPrice);
-							
+				$newPrice = round( $width * $newPrice );
+
 				// convert price float to string
-				$newPrice = to_string($newPrice);
-				
+				$newPrice = to_string( $newPrice );
+
 				// assign new price back to form object
 				$choice["price"] = $newPrice;
-				
+
 				// replace original text with new text
-				$replacementText = array("**wplf");
-				$choice["text"] = str_replace($replacementText, $price . " Per Ln. Ft. Width", $addonText);
-				
+				$replacementText = array( "**wplf" );
+				$choice["text"]  = str_replace( $replacementText, $price . " Per Ln. Ft. Width", $addonText );
+
 			} // end square foot if
-			
-			
-			// save back to form and increment index
-			$form["fields"][$i]["choices"][$index] = $choice;
-			$index++;
-			
+
 		} // end inner foreach loop
-		
+
+		// assign updated choices back to field
+		$field->choices = $choices;
+
 	} // end outer for loop
 
 
 	return;
-	
+
 }
 
 /*
@@ -214,7 +216,7 @@ function retrieve_get_variable() {
 	
 	//Model number.
 	$modelNumber = $lastVariable;
-		
+	
 	return($modelNumber);
 }
 

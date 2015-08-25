@@ -501,7 +501,7 @@ visibility: hidden !important;
 }
 
 .woocommerce-page .woocommerce .woocommerce-message::before {
-	background-color: #e0700a !important;
+	background-color: transparent !important;
 	-webkit-border-bottom-left-radius: 0px !important;
 	-webkit-border-bottom-right-radius: 0px !important;
 	border-bottom-left-radius: 0px !important;
@@ -529,6 +529,20 @@ visibility: hidden !important;
 	min-width: 200px;
 }
 
+/* set line-height to make inputs larger */
+.woocommerce-page .product .totals-container .input-text, .woocommerce .quantity .qty.text, .woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
+	line-height: 2.6!important;
+	    padding: 0 5px;
+}
+
+
+.woocommerce-checkout #payment {
+	background-color: #000!important;
+}
+
+.woocommerce-checkout #payment div.payment_box {
+	display: none!important;
+}
 
 /*	Dealer Docs
 ------------------------------------------*/

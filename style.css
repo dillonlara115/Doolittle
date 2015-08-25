@@ -262,6 +262,7 @@ img.logo {
 	margin-right: 15px;
 	font-size: 80px;
 	display: none;
+	font-family: serif;
 }
 
 #simple-menu:hover {
@@ -721,7 +722,9 @@ ul.es-slides li, .es-slide-inner, .es-overlay {
 .es-groups, .es-groups a {
 	font-size: 20px;
 }
-
+.test-content {
+	text-align: center;
+}
 /* =Sub Page
 ----------------------------------------------- */
 img.content-header {
@@ -924,32 +927,6 @@ img.map {
 #toggle div p { 
 	padding:0; 
 	margin-bottom:15px; 
-}
-
-/* =Dealer Locator
------------------------------------------------ */
-#wpsl-wrap strong {
-  color: #FEF200;
-  font-size: 1.4em;
-  margin-bottom: 0.5em;
-  display: inline-block;
-  line-height: 1.2;
-}
-
-#wpsl-wrap .wpsl-directions, #wpsl-wrap #wpsl-result-list a {
-	color: #E0700A;
-	transition: color 250ms ease;
-}
-#wpsl-wrap .wpsl-directions:hover, #wpsl-wrap #wpsl-result-list a:hover {
-	color: #fff!important;
-}
-
-#wpsl-wrap #wpsl-result-list li p {
-	margin-bottom: 0;
-}
-
-#wpsl-wrap #wpsl-result-list li {
-	margin-bottom: 1em;
 }
 
 /* =Trailer Brands
@@ -1191,7 +1168,7 @@ li.current_page_item > a {
 .my-account-item h2.marketing {
 	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2014/12/marketing-icn-doolittle.png);
 }
-.my-account-item h2.locator {
+.my-account-item h2.dealer {
 	background-image: url(http://www.doolittletrailers.com/wp-content/uploads/2015/04/pin-drop.png);
 }
 
@@ -1203,19 +1180,6 @@ li.current_page_item > a {
 
 .my-account-item p.launch a:hover {
 	text-decoration: none;
-}
-
-.docs h4 {
-	clear: both;
-}
-
-
-.media-item {
-  display: block;
-  float: left;
-  width: 245px;
-  padding: .5em;
-  box-sizing: border-box;
 }
 
 /* Responsive
@@ -1541,6 +1505,59 @@ li.current_page_item > a {
 	padding-right: 1em;
 }
 
+/* back to top */
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
 
 
 

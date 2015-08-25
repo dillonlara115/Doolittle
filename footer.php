@@ -67,18 +67,20 @@
 
 <!-- Dont' load jQuery if on WooCommerce page (will screw up gravity forms)-->
 <?php if (!is_woocommerce()):?>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ -->
+
+
 <script src="http://www.doolittletrailers.com/wp-content/themes/doolittle/js/quote.js"></script>
 
 <script type="text/javascript" src="http://www.doolittletrailers.com/jet-nav/js/jetmenu.js"></script>
 <script src="http://www.doolittletrailers.com/responsive-tabs/js/jQueryTab.js" type="text/javascript"></script>
 <script type="text/javascript" src="http://www.doolittletrailers.com/slick/slick.min.js"></script>
-<!-- Include the Sidr JS -->
-<script src="http://www.doolittletrailers.com/wp-content/themes/doolittle/menu/jquery.sidr.min.js"></script>
 
 
 
 <script type="text/javascript">
+(function($){
 $.jQueryTab({
 	responsive:true,							// enable accordian on smaller screens
 	collapsible:true,							// allow all accordions to collapse 
@@ -107,9 +109,9 @@ $.jQueryTab({
 	before: function(){},					// function to call before tab is opened
 	after: function(){}						// function to call after tab is opened
 });
-</script>
 
-<script type="text/javascript">
+
+
 $(document).ready(function(){
 	$('.responsive').slick({
 		autoplay: true,		
@@ -167,17 +169,14 @@ $('.responsive-2').slick({
 		]
 	});
 });
-</script>
 
-<script type="text/javascript">
-      jQuery(document).ready(function() {
-           $().jetmenu({
+$().jetmenu({
                 speed: 200
            });
-      });
-</script>
 
-<script>
+
+
+
 $(document).ready(function() {
 	$('#toggle h3').each(function() {
 		var tis = $(this), state = false, answer = tis.next('div').hide().css('height','auto').slideUp();
@@ -188,6 +187,9 @@ $(document).ready(function() {
 		});
 	});
 });
+
+
+})(jQuery);
 </script>
 
 <!-- allow dealer documents open in new page -->
@@ -196,8 +198,10 @@ $(document).ready(function() {
       jQuery('.document-icon > a').attr('target', '_blank');
   } );
 </script>
+
+
 <?php endif; ?>
 
-
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/quote.js"></script>
 </body>
 </html>

@@ -1,0 +1,980 @@
+{ 
+	"trailers": {
+		"RS731": {
+			"type": "utility",
+			"title": "Rally Sport 600 Series 1500lbs. Single Axle 12 inch Tires",
+			"size": "60 x 8"
+		},
+		"RS800": {
+			"type": "utility",
+			"title": "Rally Sport 600 Series 2000lbs single Axle 13 inch Tires",
+			"size": "60 x 8"
+		},
+		"RS844": {
+			"type": "utility",
+			"title": "Rally Sport 600 Series 2000lbs single Axle 13 inch Tires",
+			"size": "60 x 10"
+		},
+		"RS901": {
+			"type": "utility",
+			"title": "Rally Sport Utility Trailers 600 Series 2990 lbs. Single Axle 15 inch Tires",
+			"size": "60 x 8 HD"
+		},
+		"RS946": {
+			"type": "utility",
+			"title": "Rally Sport Utility Trailers 600 Series 2990 lbs. Single Axle 15 inch Tires",
+			"size": "60 x 10 HD"
+		},
+		"RS1017": {
+			"type": "utility",
+			"title": "Rally Sport Utility Trailers 600 Series 2990 lbs. Single Axle 15 inch Tires",
+			"size": "60 x 12 HD"
+		},
+		"DL1217": {
+			"type": "utility",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 8"
+		},
+		"DL1217x": {
+			"type": "utility",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 10"
+		},
+		"DL1284": {
+			"type": "utility",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 12"
+		},
+		"DL1351": {
+			"type": "utility",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 12"
+		},
+		"DL1167": {
+			"type": "utility",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 8"
+		},
+		"DL1167x": {
+			"type": "utility",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 10"
+		},
+		"DL1234": {
+			"type": "utility",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 12"
+		},
+		"DL1301": {
+			"type": "Doolittle",
+			"title": "660 Series 2990 lbs. GVWR Single Axle",
+			"size": "60 x 12"
+		},
+		"DL1280": {
+			"type": "SS Series",
+			"title": "770 Series 2990 lbs. GVWR Single Axle",
+			"size": "77 x 10"
+		},
+		"DL1347": {
+			"type": "SS Series",
+			"title": "770 Series 2990 lbs. GVWR Single Axle",
+			"size": "77 x 12"
+		},
+		"DL1413": {
+			"type": "Doolittle",
+			"title": "770 Series 2990 lbs. GVWR Single Axle",
+			"size": "77 x 14"
+		},
+		"DL1230": {
+			"type": "Doolittle",
+			"title": "770 Series 2990 lbs. GVWR Single Axle",
+			"size": "77 x 10"
+		},
+		"DL1297": {
+			"type": "Doolittle",
+			"title": "770 Series 2990 lbs. GVWR Single Axle",
+			"size": "77 x 12"
+		},
+		"DL1613": {
+			"type": "Rally Sport",
+			"title": "770 Series 2990 lbs. GVWR Single Axle",
+			"size": "77 x 14"
+		},
+		"DL1115": {
+			"type": "Rally Sport",
+			"title": "770 Series 2990 lbs. GVWR Single Axle",
+			"size": "77 x 10"
+		},
+		"DL1613": {
+			"type": "Doolittle",
+			"title": "770 Series 2990 lbs. GVWR Single Axle w/ Side Gate",
+			"size": "77 x 12"
+		},
+		"DL1679": {
+			"type": "Doolittle",
+			"title": "770 Series 2990 lbs. GVWR Single Axle w/ Side Gate",
+			"size": "77 x 14"
+		},
+		"RS1305": {
+			"type": "Rally Sport",
+			"title": "770 Series 2990 lbs. GVWR Single Axle w/ Side Gate",
+			"size": "77 x 12'"
+		},
+		"DL1332": {
+			"type": "SS Series",
+			"title": "840 Series 2990 lbs. GVWR Single Axle",
+			"size": "84 x 10'"
+		},
+		"DL1399": {
+			"type": "SS Series",
+			"title": "840 Series 2990 lbs. GVWR Single Axle",
+			"size": "84 x 12'"
+		},
+		"DL1466": {
+			"type": "SS Series",
+			"title": "840 Series 2990 lbs. GVWR Single Axle",
+			"size": "84 x 14'"
+		},
+		"DL1282": {
+			"type": "Doolittle",
+			"title": "840 Series 2990 lbs. GVWR Single Axle",
+			"size": "84 x 10'"
+		},
+		"DL1349": {
+			"type": "Doolittle",
+			"title": "840 Series 2990 lbs. GVWR Single Axle",
+			"size": "84 x 12'"
+		},
+		"DL1416": {
+			"type": "Doolittle",
+			"title": "840 Series 2990 lbs. GVWR Single Axle",
+			"size": "84 x 14'"
+		},
+		"DL1667": {
+			"type": "Doolittle",
+			"title": "840 Series 2990 lbs. GVWR Single Axle w/ Side Gate",
+			"size": "84 x 12'"
+		},
+		"DL1732": {
+			"type": "Doolittle",
+			"title": "840 Series 2990 lbs. GVWR Single Axle w/ Side Gate",
+			"size": "84 x 14'"
+		},
+		"DL1992": {
+			"type": "SS Series",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 14'"
+		},
+		"DL1992x": {
+			"type": "SS Series",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 16'"
+		},
+		"DL1875": {
+			"type": "Doolittle",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 12'"
+		},
+		"DL1942": {
+			"type": "Doolittle",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 14'"
+		},
+		"DL1942x": {
+			"type": "Doolittle",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 16'"
+		},
+		"DL2009": {
+			"type": "Doolittle",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 18'"
+		},
+		"DL2076": {
+			"type": "Doolittle",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 20'"
+		},
+		"RS1675": {
+			"type": "Rally Sport",
+			"title": "770 Series 7K Tandem Axle",
+			"size": "77 x 16'"
+		},
+		"DL2588": {
+			"type": "Doolittle",
+			"title": "770 Series 10K Tandem Axle",
+			"size": "77 x 14'"
+		},
+		"DL2588x": {
+			"type": "Doolittle",
+			"title": "770 Series 10K Tandem Axle",
+			"size": "77 x 16'"
+		},
+		"DL2655": {
+			"type": "Doolittle",
+			"title": "770 Series 10K Tandem Axle",
+			"size": "77 x 18'"
+		},
+		"DL2722": {
+			"type": "Doolittle",
+			"title": "770 Series 10K Tandem Axle",
+			"size": "77 x 20'"
+		},
+		"DL2092": {
+			"type": "SS Series",
+			"title": "840 Series 7K Tandem Axle",
+			"size": "84 x 14'"
+		},
+		"DL2092x": {
+			"type": "SS Series",
+			"title": "840 Series 7K Tandem Axle",
+			"size": "84 x 16'"
+		},
+		"DL2042": {
+			"type": "Doolittle",
+			"title": "840 Series 7K Tandem Axle",
+			"size": "84 x 14'"
+		},
+		"DL2042x": {
+			"type": "Doolittle",
+			"title": "840 Series 7K Tandem Axle",
+			"size": "84 x 16'"
+		},
+		"DL2088": {
+			"type": "Doolittle",
+			"title": "840 Series 7K Tandem Axle",
+			"size": "84 x 18'"
+		},
+		"DL2155": {
+			"type": "Doolittle",
+			"title": "840 Series 7K Tandem Axle",
+			"size": "84 x 18'"
+		},
+		"DL2684": {
+			"type": "Doolittle",
+			"title": "840 Series 10K Tandem Axle",
+			"size": "84 x 14'"
+		},
+		"DL2694": {
+			"type": "Doolittle",
+			"title": "840 Series 10K Tandem Axle",
+			"size": "84 x 16'"
+		},
+		"DL2750": {
+			"type": "Doolittle",
+			"title": "840 Series 10k Tandem Axle",
+			"size": "84 x 18'"
+		},
+		"DL2816": {
+			"type": "Doolittle",
+			"title": "840 Series 10k Tandem Axle",
+			"size": "84 x 20'"
+		},
+		"MD2813": {
+			"type": "Single Cylinder",
+			"title": "6000 Series 5′ Wide Single Axle",
+			"size": "8' 3500 lbs."
+		},
+		"MD3164": {
+			"type": "Single Cylinder",
+			"title": "6000 Series 5′ Wide Single Axle",
+			"size": "8' 5200 lbs."
+		},
+		"MD3497": {
+			"type": "Single Cylinder",
+			"title": "6000 Series 5′ Wide Single Axle",
+			"size": "8' 7000 lbs."
+		},
+		"MD3379": {
+			"type": "Single Cylinder",
+			"title": "6000 Series 5′ Wide Single Axle",
+			"size": "10' 5200lbs."
+		},
+		"MD3689": {
+			"type": "Single Cylinder",
+			"title": "6000 Series 5′ Wide Single Axle",
+			"size": "10' 7000 lbs."
+		},
+		"MD3767": {
+			"type": "Single Cylinder",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "10' 7000 lbs."
+		},
+		"MD4192": {
+			"type": "Single Cylinder",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "10' 10,000 lbs."
+		},
+		"MD4116": {
+			"type": "Dual Cylinder",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "10' 7000 lbs."
+		},
+		"MD4541": {
+			"type": "Dual Cylinder",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "10' 10,000 lbs."
+		},
+		"MD4617": {
+			"type": "Scissor",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "10' 7000 lbs."
+		},
+		"MD5042": {
+			"type": "Scissor",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "10' 10,000 lbs."
+		},
+		"MD4725": {
+			"type": "Dual Cylinder",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "12' 10,000 lbs."
+		},
+		"MD5335": {
+			"type": "Dual Cylinder",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "12' 14,000 lbs."
+		},
+		"MD5186": {
+			"type": "Scissor",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "12' 10,000 lbs."
+		},
+		"MD5723": {
+			"type": "Scissor",
+			"title": "7200 Series 6′ Wide Tandem Axle",
+			"size": "12' 14,000 lbs."
+		},
+		"MD5006": {
+			"type": "Dual Cylinder",
+			"title": "8200 Series 82 inch Wide Tandem Axle",
+			"size": "12' 10,000 lbs."
+		},
+		"MD5577": {
+			"type": "Dual Cylinder",
+			"title": "8200 Series 82 inch Wide Tandem Axle",
+			"size": "12' 14,000 lbs."
+		},
+		"MD5373": {
+			"type": "Scissor",
+			"title": "8200 Series 82 inch Wide Tandem Axle",
+			"size": "12' 10,000 lbs."
+		},
+		"MD5924": {
+			"type": "Scissor",
+			"title": "8200 Series 82 inch Wide Tandem Axle",
+			"size": "12' 14,000 lbs."
+		},
+		"MD5825": {
+			"type": "Dual Cylinder",
+			"title": "8200 Series 82 inch Wide Tandem Axle",
+			"size": "14' 14,000 lbs."
+		},
+		"MD6196": {
+			"type": "Scissor",
+			"title": "8200 Series 82 inch Wide Tandem Axle",
+			"size": "14' 14,000 lbs."
+		},
+		"MD6682": {
+			"type": "Scissor",
+			"title": "8200 Series 82 inch Wide Tandem Axle",
+			"size": "16' 14,000 lbs."
+		},
+		"DL4537": {
+			"type": "BruteForce",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 20'"
+		},
+		"DL4646": {
+			"type": "BruteForce",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 22'"
+		},
+		"DL4755": {
+			"type": "BruteForce",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 24'"
+		},
+		"DL4863": {
+			"type": "BruteForce",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 25'"
+		},
+		"DL4971": {
+			"type": "BruteForce",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 26'"
+		},
+		"DL5079": {
+			"type": "BruteForce",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 28'"
+		},
+		"DL5188": {
+			"type": "BruteForce",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 30'"
+		},
+		"DL4016": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 16'"
+		},
+		"DL4126": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 18'"
+		},
+		"DL4236": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 20'"
+		},
+		"DL4346": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 22'"
+		},
+		"DL4455": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 24'"
+		},
+		"DL4671": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 26'"
+		},
+		"DL4779": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 28'"
+		},
+		"DL4888": {
+			"type": "BruteForce XL",
+			"title": "14,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 30'"
+		},
+		"DL6804": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 20'"
+		},
+		"DL6905": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 22'"
+		},
+		"DL7006": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 24'"
+		},
+		"DL7056": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 25'"
+		},
+		"DL7106": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 26'"
+		},
+		"DL7207": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 28'"
+		},
+		"DL7308": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 30'"
+		},
+		"DL7409": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 32'"
+		},
+		"DL7510": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 34'"
+		},
+		"DL7559": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 35'"
+		},
+		"DL7611": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 36'"
+		},
+		"DL7712": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 38'"
+		},
+		"DL7812": {
+			"type": "BruteForce",
+			"title": "22,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 40'"
+		},
+		"DL6198": {
+			"type": "BruteForce",
+			"title": "Tri-Axle 23,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 30'"
+		},
+		"DL6307": {
+			"type": "BruteForce",
+			"title": "Tri-Axle 23,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 32'"
+		},
+		"DL6417": {
+			"type": "BruteForce",
+			"title": "Tri-Axle 23,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 34'"
+		},
+		"DL6537": {
+			"type": "BruteForce",
+			"title": "Tri-Axle 23,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 36'"
+		},
+		"DL6646": {
+			"type": "BruteForce",
+			"title": "Tri-Axle 23,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 38'"
+		},
+		"DL6792": {
+			"type": "BruteForce",
+			"title": "Tri-Axle 23,000 lbs. GVWR Deckover Trailer",
+			"size": "102 x 40'"
+		},
+		"DL2406": {
+			"type": "Xtreme",
+			"title": "7,000 lbs. GVWR",
+			"size": "84 x 18'"
+		},
+		"DL2550": {
+			"type": "Xtreme",
+			"title": "7,000 lbs. GVWR",
+			"size": "84 x 20'"
+		},
+		"DL2094": {
+			"type": "CF",
+			"title": "7,000 lbs. GVWR",
+			"size": "84 x 18'"
+		},
+		"DL2238": {
+			"type": "CF",
+			"title": "7,000 lbs. GVWR",
+			"size": "84 x 20'"
+		},
+		"DL2873": {
+			"type": "Xtreme",
+			"title": "9,800 lbs. GVWR",
+			"size": "84 x 18'"
+		},
+		"DL3017": {
+			"type": "Xtreme",
+			"title": "9,800 lbs. GVWR",
+			"size": "84 x 20'"
+		},
+		"DL2487": {
+			"type": "CF",
+			"title": "9,800 lbs. GVWR",
+			"size": "84 x 18'"
+		},
+		"DL2631": {
+			"type": "CF",
+			"title": "9,800 lbs. GVWR",
+			"size": "84 x 20'"
+		},
+		"DL3474": {
+			"type": "Xtreme",
+			"title": "14,000 lbs. GVWR",
+			"size": "82 x 18'"
+		},
+		"DL3619": {
+			"type": "Xtreme",
+			"title": "14,000 lbs. GVWR",
+			"size": "82 x 20'"
+		},
+		"DL3225": {
+			"type": "CF",
+			"title": "14,000 lbs. GVWR",
+			"size": "82 x 18'"
+		},
+		"DL3369": {
+			"type": "CF",
+			"title": "14,000 lbs. GVWR",
+			"size": "82 x 20'"
+		},
+		"EZ2499": {
+			"type": "EZ Loader",
+			"title": "7,000 lbs. GVWR EZ Loader Trailer",
+			"size": "84 x 18'"
+		},
+		"EZ2643": {
+			"type": "EZ Loader",
+			"title": "7,000 lbs. GVWR EZ Loader Trailer",
+			"size": "84 x 20'"
+		},
+		"EZ3274": {
+			"type": "EZ Loader",
+			"title": "9,800 lbs. GVWR EZ Loader Trailer",
+			"size": "84 x 18'"
+		},
+		"EZ3418": {
+			"type": "EZ Loader",
+			"title": "9,800 lbs. GVWR EZ Loader Trailer",
+			"size": "84 x 20'"
+		},
+		"EZ3946": {
+			"type": "EZ Loader",
+			"title": "14,000 lbs. GVWR EZ Loader Trailer",
+			"size": "84 x 18'"
+		},
+		"EZ4090": {
+			"type": "EZ Loader",
+			"title": "14,000 lbs. GVWR EZ Loader Trailer",
+			"size": "84 x 20'"
+		},
+		"GT3654": {
+			"type": "EZ Loader",
+			"title": "9,800 lbs. GVWR EZ Loader GT Flatbed Tilt Trailer",
+			"size": "84 x 18'"
+		},
+		"GT3794": {
+			"type": "EZ Loader GT",
+			"title": "9,800 lbs. GVWR EZ Loader GT Flatbed Tilt Trailer",
+			"size": "80 x 20'"
+		},
+		"GT4469": {
+			"type": "EZ Loader GT",
+			"title": "14,000 lbs. GVWR EZ Loader GT Flatbed Tilt Trailer",
+			"size": "80 x 18'"
+		},
+		"GT4609": {
+			"type": "EZ Loader GT",
+			"title": "14,000 lbs. GVWR EZ Loader GT Flatbed Tilt Trailer",
+			"size": "80 x 20'"
+		},
+		"GT4753": {
+			"type": "EZ Loader",
+			"title": "14,000 lbs. GVWR EZ Loader GT Flatbed Tilt Trailer",
+			"size": "80 x 22'"
+		},
+		"DL1957": {
+			"type": "Doolittle",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 8'"
+		},
+		"DL2150": {
+			"type": "Doolittle",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 10'"
+		},
+		"DL2488": {
+			"type": "Doolittle",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 12'+"
+		},
+		"CM1659": {
+			"type": "Cargomaster",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 8'"
+		},
+		"CM1825": {
+			"type": "Cargomaster",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 10'"
+		},
+		"CM2131": {
+			"type": "Cargomaster",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 12'+"
+		},
+		"BL1523": {
+			"type": "Bullitt",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 8'"
+		},
+		"BL1673": {
+			"type": "Bullitt",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 10'"
+		},
+		"BL1958": {
+			"type": "Bullitt",
+			"title": "5′ Wide Single Axle 2990 lbs GVWR",
+			"size": "5' x 12'+"
+		},
+		"DL2332": {
+			"type": "Doolittle",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 8'"
+		},
+		"DL2565": {
+			"type": "Doolittle",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 10'"
+		},
+		"DL2909": {
+			"type": "Doolittle",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 12'+"
+		},
+		"DL3115": {
+			"type": "Doolittle",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 14'+"
+		},
+		"CM1977": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 8'"
+		},
+		"CM2172": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 10'"
+		},
+		"CM2463": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 12'+"
+		},
+		"CM2637": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 14'+"
+		},
+		"BL1812": {
+			"type": "Bullitt",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 8'"
+		},
+		"BL1990": {
+			"type": "Bullitt",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 10'"
+		},
+		"BL2257": {
+			"type": "Bullitt",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 12'+"
+		},
+		"BL2414": {
+			"type": "Bullitt",
+			"title": "6′ Wide Single Axle 2990 lbs GVWR",
+			"size": "6' x 14'+"
+		},
+		"DL2896": {
+			"type": "Doolittle",
+			"title": "7′ Wide Single Axle 2990 lbs GVWR",
+			"size": "7' x 10'"
+		},
+		"DL3241": {
+			"type": "Doolittle",
+			"title": "7′ Wide Single Axle 2990 lbs GVWR",
+			"size": "7' x 12'"
+		},
+		"CM2452": {
+			"type": "Cargomaster",
+			"title": "7′ Wide Single Axle 2990 lbs GVWR",
+			"size": "7' x 10'"
+		},
+		"CM2743": {
+			"type": "Cargomaster",
+			"title": "7′ Wide Single Axle 2990 lbs GVWR",
+			"size": "7' x 12'"
+		},
+		"DL3817": {
+			"type": "Doolittle",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 10'"
+		},
+		"DL4084": {
+			"type": "Doolittle",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 12'"
+		},
+		"DL4208": {
+			"type": "Doolittle",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 14'"
+		},
+		"DL4437": {
+			"type": "Doolittle",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 16'"
+		},
+		"CM3248": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 10'"
+		},
+		"CM3472": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 12'"
+		},
+		"CM3577": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 14'"
+		},
+		"CM3770": {
+			"type": "Cargomaster",
+			"title": "6′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "6' x 16'"
+		},
+		"DL4220": {
+			"type": "Doolittle",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 12'"
+		},
+		"DL4689": {
+			"type": "Doolittle",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 16'+"
+		},
+		"DL4918": {
+			"type": "Doolittle",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 18'+"
+		},
+		"DL5149": {
+			"type": "Doolittle",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 20'+"
+		},
+		"CM3587": {
+			"type": "Cargomaster",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 12'"
+		},
+		"CM3790": {
+			"type": "Cargomaster",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 14'"
+		},
+		"CM3982": {
+			"type": "Cargomaster",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 16'+"
+		},
+		"CM4174": {
+			"type": "Cargomaster",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 18'+"
+		},
+		"BL3477": {
+			"type": "Bullitt",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 14'"
+		},
+		"BL3655": {
+			"type": "Bullitt",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 16'+"
+		},
+		"BL3831": {
+			"type": "Bullitt",
+			"title": "7′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "7' x 18'+"
+		},
+		"DL4735": {
+			"type": "Doolittle",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 14'"
+		},
+		"DL4965": {
+			"type": "Doolittle",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 16'"
+		},
+		"DL5194": {
+			"type": "Doolittle",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 18'"
+		},
+		"DL5423": {
+			"type": "Doolittle",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 20'"
+		},
+		"DL5653": {
+			"type": "Doolittle",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 22'"
+		},
+		"DL5883": {
+			"type": "Doolittle",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 24'"
+		},
+		"CM4012": {
+			"type": "Cargomaster",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 14'"
+		},
+		"CM4214": {
+			"type": "Cargomaster",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 16'"
+		},
+		"CM4407": {
+			"type": "Cargomaster",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 18'"
+		},
+		"CM4601": {
+			"type": "Cargomaster",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 20'"
+		},
+		"CM4795": {
+			"type": "Cargomaster",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 22'"
+		},
+		"CM4988": {
+			"type": "Cargomaster",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 24'"
+		},
+		"BL3691": {
+			"type": "Bullitt",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 14'"
+		},
+		"BL3977": {
+			"type": "Bullitt",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 16'"
+		},
+		"BL4043": {
+			"type": "Bullitt",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 18'"
+		},
+		"BL4220": {
+			"type": "Bullitt",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 20'"
+		},
+		"BL4519": {
+			"type": "Bullitt",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 22'"
+		},
+		"BL4701": {
+			"type": "Bullitt",
+			"title": "8.5′ Wide Tandem Axle 7K lbs GVWR",
+			"size": "8.5' x 24'"
+		}
+		
+	}
+}

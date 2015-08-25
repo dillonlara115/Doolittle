@@ -21,7 +21,7 @@
 <link type="text/css" rel="stylesheet" href="http://www.doolittletrailers.com/responsive-tabs/jQueryTab.css" />
 <link rel="stylesheet" type="text/css" href="http://www.doolittletrailers.com/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
-
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <?php wp_head(); ?>
 
 <script>
@@ -41,7 +41,7 @@
 <?php
 // if user is not logged in
 if(!is_user_logged_in()){
-	
+	$is_child = false;
 	if(is_woocommerce()){
 		header('location: http://www.doolittletrailers.com/my-account/');
 	} else{
@@ -127,11 +127,13 @@ if(!is_user_logged_in()){
 							<li><a href="/contact/>Contact</a></li>
 						</ul>
 						
-						<script>
+						<!-- <script>
 							$(document).ready(function() {
-							  $('#simple-menu').sidr();
+							  $('#simple-menu').sidr({
+							  	name: 'right-side'
+							  });
 							});
-						</script>
+						</script> -->
 						
 						<?php 
 						// dealer navigation upon logged in user
@@ -150,16 +152,7 @@ if(!is_user_logged_in()){
 						?>
 					</div>
 					
-					<!-- Responsive Menu -->
-					<script type="text/javascript">
-					$( document ).ready(function() {
-							(function ($, window, document, undefined) {
-								$(document).ready(function () {
-									$('#simple-menu').sidr();
-							});
-						});
-					});
-					</script>
+		
 
 					<div id='cssmenu'>
 					<ul>
