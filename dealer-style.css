@@ -420,6 +420,11 @@ visibility: hidden !important;
 	margin-top: -13%;
 }
 
+.single-product .gform_wrapper span.ginput_product_price_label, .single-product .gform_wrapper .ginput_product_price {
+	float: none!important;
+}
+
+
 .single-product .gform_body select {
 	width: 50% !important;
 	min-width: 300px;
