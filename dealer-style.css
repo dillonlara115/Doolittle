@@ -536,8 +536,8 @@ visibility: hidden !important;
 
 /* set line-height to make inputs larger */
 .woocommerce-page .product .totals-container .input-text, .woocommerce .quantity .qty.text, .woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
-	line-height: 2.6!important;
-	    padding: 0 5px;
+	line-height: 2.6;
+	    padding: 5px;
 }
 
 
