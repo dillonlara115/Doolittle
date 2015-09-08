@@ -191,6 +191,30 @@ function perform_calculations( $properties, &$form ) {
 
 			} // end square foot if
 
+			// per tire calculation
+			if ( strpos( $addonText, "**pt" ) !== false ) {
+
+				// get the price string
+				$price = $choice["price"];
+
+				// convert string to float
+				$newPrice = to_float( $price );
+
+				// round calculation result
+				$newPrice = round( $tires * $newPrice );
+
+				// convert price float to string
+				$newPrice = to_string( $newPrice );
+
+				// assign new price back to form object
+				$choice["price"] = $newPrice;
+
+				// replace original text with new text
+				$replacementText = array( "**pt" );
+				$choice["text"]  = str_replace( $replacementText, $price . " Per Tire", $addonText );
+
+			} // end per tire if
+
 		} // end inner foreach loop
 
 		// assign updated choices back to field
@@ -263,7 +287,7 @@ function get_master_dump_properties() {
 	
 	//Get variable at end of URL
 	$modelNumber = retrieve_get_variable();
-	
+	echo $modelNumber;
 	//Properties determined by model
 	$properties = array("length" => 0, "width" => 0, "axles" =>0, "tires" => 0);
 	

@@ -26,4 +26,6 @@ jQuery(document).ready(function($){
 		);
 	});
 
+	$('#field_24_7').removeAttr('style');
+
 });

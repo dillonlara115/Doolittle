@@ -391,39 +391,47 @@ a.dealer-main:hover {
 }
 
 
-.single-product .gform_body li {
+/*.single-product .gform_body li {
 	margin-bottom: 2em;
-}
+}*/
 
 	/* Hide sections of the forms to force
 		returning to the tables to select model*/
 .single-product .gform_body .dump-series, .quote-total {
-	/*
+	
 visibility: hidden !important;
 	height: 0 !important;
-*/
-	display: none !important;
+
+	/*display: none !important;*/
 }
+
+#field_24_7 {
+	display: block!important;
+}
+
 
 .single-product .gform_body li#field_4_2, li#field_4_3, li#field_4_4, li#field_12_5, li#field_12_1, li#field_13_5, li#field_13_6, li#field_13_7, li#field_13_8, li#field_13_9, li#field_13_10, li#field_9_1, li#field_9_2, li#field_10_1, li#field_10_2, li#field_11_1, li#field_11_2, li#field_22_1, li#field_22_2, li#field_14_1, li#field_14_2, li#field_14_3, li#field_14_4, li#field_14_5, li#field_15_1, li#field_15_2, li#field_15_3, li#field_15_4, li#field_15_5, li#field_15_16, li#field_16_1, li#field_16_2, li#field_16_3, li#field_16_4, li#field_16_5, li#field_16_16, li#field_17_1, li#field_17_2, li#field_17_3, li#field_17_4, li#field_17_5, li#field_17_6, li#field_17_7, li#field_20_1, li#field_20_2, li#field_20_3, li#field_20_4, li#field_20_5, li#field_20_6, li#field_20_7, li#field_21_1, li#field_21_2, li#field_21_3, li#field_21_4, li#field_21_5, li#field_21_6, li#field_21_7, .hidden {
 	visibility: hidden !important;
 	height: 0 !important;
 	margin: 0 0;
-	/* display: none !important; */
-}
+	
+/*	 display: none !important; 
+*/}
 
-#gform_wrapper_13, #gform_wrapper_14, #gform_wrapper_17, #gform_wrapper_20, #gform_wrapper_21 {
+/*#gform_wrapper_13, #gform_wrapper_14, #gform_wrapper_17, #gform_wrapper_20, #gform_wrapper_21 {
 	margin-top: -23%;
 }
 
 #gform_wrapper_12, #gform_wrapper_9, #gform_wrapper_10, #gform_wrapper_11, #gform_wrapper_22, #gform_wrapper_15, #gform_wrapper_16 {
 	margin-top: -13%;
-}
+}*/
 
 .single-product .gform_wrapper span.ginput_product_price_label, .single-product .gform_wrapper .ginput_product_price {
 	float: none!important;
 }
-
+.single-product .gform_wrapper ul li.gfield{
+	clear: none;
+}
 
 .single-product .gform_body select {
 	width: 50% !important;

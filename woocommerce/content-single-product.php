@@ -38,6 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	?>
 	
 	<?php get_template_part('templates/trailerinfo'); ?>
+	<?php the_content(); ?>
 	<div class="summary entry-summary">
 
 		<?php

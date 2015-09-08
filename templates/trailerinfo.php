@@ -1,6 +1,5 @@
 <h3 class="test-content"></h3>
 
-
 <script type="text/javascript">
 (function($){
 
